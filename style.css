@@ -1,0 +1,22 @@
+html{
+width: 700px;
+height: 900px;
+background-color: black;
+color: white;
+/*border-radius: 35px;*/
+}
+
+body{
+width: 500px;
+height: 900px;
+background-color:black;
+color: white;
+/*border-radius: 35px;*/
+}
+#start{
+width: 75px;
+height: 45px;
+border-radius: 5px 5px 30px 5px;
+background-color: black;
+color: white;
+}
