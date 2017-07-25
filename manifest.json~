@@ -7,7 +7,7 @@
 	"matches": [
 		"<all_urls>"
 	],
-	"js": ["jquery-3.2.1.js", "parse.js"]
+	"js": ["jquery-3.2.1.js"]
  }],
 
  "browser_action": {
@@ -17,7 +17,8 @@
 
   "description": "Parse all text from web page w/ formatting.",
   "background": {
-	"scripts": ["background.js"]
+	"scripts": ["parse.js"], 
+	"persisent": false
 	}
   
 }
